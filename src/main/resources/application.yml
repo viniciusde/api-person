@@ -1,0 +1,12 @@
+spring:
+  data:
+    mongodb:
+      database: ${DB_DATABASE:persons}
+      host: ${DB_HOST:localhost}
+      port: ${DB_PORT:27017}
+
+springdoc:
+  api-docs:
+    path: /persons-docs
+  swagger-ui:
+    operations-sorter: method
